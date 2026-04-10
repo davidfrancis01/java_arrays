@@ -4,7 +4,7 @@ public class ReverseEvenNo{
         int first =0;
         int last = arr.length-1;
 
-        //while loop for counting appearnce of numbers
+        //while loop for reversing numbers if they are even
         while(first<last){
             if(arr[first]%2==0 && arr[last]%2==0){
                 int temp = arr[first];
